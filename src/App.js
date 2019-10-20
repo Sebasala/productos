@@ -1,13 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 // Data
-import tiendas from './data/tiendas';
+import tiendas from './data/tiendas'
 
 // Functions
-import formatAsPrice from './functions/formatAsPrice';
+import formatAsPrice from './functions/formatAsPrice'
 
 // Components
-import Product from './components/Product';
+import Product from './components/Product'
+import Products from './components/Products'
 
 export default class App extends Component {
   constructor(props) {
@@ -19,15 +20,12 @@ export default class App extends Component {
   }
 
   render() {
-    const precioFormateado = formatAsPrice(this.state.tiendas[0].sucursales[0].productos[0].precio);
+    const producto = this.state.tiendas[0].sucursales[0].productos[4];
+    const productos = this.state.tiendas[0].sucursales[0].productos;
 
     return (
       <div className="tiendas">
-        <Product 
-          nombre={this.state.tiendas[0].sucursales[0].productos[0].nombre}
-          cantidad={this.state.tiendas[0].sucursales[0].productos[0].cantidad}
-          precio={precioFormateado}
-        />
+        <Products productos={productos} />
       </div>
     )
   }

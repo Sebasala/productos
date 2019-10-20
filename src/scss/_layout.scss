@@ -4,8 +4,7 @@
 }
 
 h1, h2, h3, h4, h5, h6,
-p, li,
-div,
+p,
 .buttons {
 	max-width: $text-max-width;
 }
@@ -22,7 +21,7 @@ div {
 }
 
 img {
-	object-fit: cover;
+	object-fit: contain;
 	object-position: center;
 	display: block;
 	max-width: 100%;
@@ -30,7 +29,53 @@ img {
 }
 
 .precio,
-.cantidad {
+.cantidad,
+.categorias {
 	padding: 0 2 * $blh;
 }
 
+.product {
+	padding-bottom: 2 * $blh;
+}
+
+// PRODUCTO
+.product {
+	border-radius: $blh;
+	box-shadow: 2px 2px 5px 0px rgba(black, 0.5);
+	margin: 0 $blh 2 * $blh;
+	overflow: hidden;
+	max-width: $text-max-width;
+	margin: 0 auto 2 * $blh;
+
+	img {
+		height: 20 * $blh;
+		width: 100%;
+	}
+}
+
+// PRODUCTOS
+.products {
+	max-width: 1280px;
+	margin: 0 auto;
+
+	@media screen and (min-width: $bp-2) {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+
+		li {
+			padding: 0;
+			width: calc(50% - #{2 * $blh});
+		}
+
+		.product {
+			min-height: 100%;
+		}
+	}
+
+	@media screen and (min-width: $bp-3) {
+		li {
+			width: calc(33.3333% - #{2 * $blh});
+		}
+	}
+}
