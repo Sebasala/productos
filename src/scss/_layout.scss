@@ -1,0 +1,36 @@
+/* GENERAL */
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, li,
+div,
+.buttons {
+	max-width: $text-max-width;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, li,
+.buttons {
+	padding: 0 2 * $blh;
+	margin: 0 auto 2 * $blh;
+}
+
+div {
+	margin: 0 auto;
+}
+
+img {
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	max-width: 100%;
+	margin: 0 auto 2 * $blh;
+}
+
+.precio,
+.cantidad {
+	padding: 0 2 * $blh;
+}
+

@@ -1,0 +1,58 @@
+[
+    {
+        "nombre": "Loto del Sur",
+        "sucursales": [
+            {
+                "nombre": "Andino",
+                "productos": [
+                    {
+                        "nombre": "Ron de bahía",
+                        "precio": 98900,
+                        "imagen": "https://lotodelsur.vteximg.com.br/arquivos/ids/161026-800-800/LDS-bruma-perfumada-ron-de-bahia-100mL-10-4600014-1.png?v=636973312842900000",
+                        "cantidad": 123,
+                        "categorias": [
+                            "Perfumería"
+                        ]
+                    },
+                    {
+                        "nombre": "Aceite de barba",
+                        "precio": 42900,
+                        "imagen": "https://lotodelsur.vteximg.com.br/arquivos/ids/160848-800-800/LDS-aceite-preafeitada-calendula-tea-tree-55ml-10-4600001-1.png?v=636973312722170000",
+                        "cantidad": 45,
+                        "categorias": [
+                            "Afeitada y Cuidado de la Barba"
+                        ]
+                    },
+                    {
+                        "nombre": "Bálsamo inteligente",
+                        "precio": 42900,
+                        "imagen": "https://scontent-lhr3-1.cdninstagram.com/v/t51.2885-15/e35/68680674_479137402920072_367761073958244431_n.jpg?_nc_ht=scontent-lhr3-1.cdninstagram.com&_nc_cat=100&oh=30129c81ac3ae258b76c1afff6bbebf1&oe=5E00EF2C&ig_cache_key=MjEyODUxNDg1NDUzNDA4OTM1MQ%3D%3D.2",
+                        "cantidad": 67,
+                        "categorias": [
+                            "Afeitada y Cuidado de la Barba",
+                            "Cuidado facial"
+                        ]
+                    },
+                    {
+                        "nombre": "Aceite seco",
+                        "precio": 62900,
+                        "imagen": "https://i.blogs.es/31346c/nuxe/450_1000.jpg",
+                        "cantidad": 89,
+                        "categorias": [
+                            "Cuerpo y baño"
+                        ]
+                    },
+                    {
+                        "nombre": "Jabón exfoliante",
+                        "precio": 22900,
+                        "imagen": "https://www.medikalia.es/8028-thickbox_default/jabon-exfoliante-abilia.jpg",
+                        "cantidad": 123,
+                        "categorias": [
+                            "Cuerpo y baño"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
